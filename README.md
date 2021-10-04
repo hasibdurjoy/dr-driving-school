@@ -1,6 +1,6 @@
 # Dr Driving School
 
-#[Live Site Link](https://dr-driving-school.netlify.app/).
+[Live Site Link](https://dr-driving-school.netlify.app/).
 
 # `Features`
 
