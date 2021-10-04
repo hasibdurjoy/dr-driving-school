@@ -5,11 +5,11 @@ import { Button, Card, Col } from 'react-bootstrap';
 const Service = (props) => {
     const { serviceName, duration, price, teacher, type, img, description } = props.service;
     return (
-        <Col className="shadow rounded">
-            <Card className="card h-100">
-                <Card.Img variant="top" src={img} className="service-thumbnail p-3 border rounded" />
+        <Col className="shadow rounded ">
+            <Card className="card h-100 service-card">
+                <Card.Img variant="top" src={img} className="service-thumbnail p-3 bg-white" />
                 <Card.Body>
-                    <Card.Title>{serviceName}</Card.Title>
+                    <Card.Title className="text-center">{serviceName}</Card.Title>
                     <h5>Type : <small>{type}</small></h5>
                     <h5>Duration : <small>{duration}</small></h5>
                     <h5>Trainer : <small>{teacher}</small></h5>

@@ -46,11 +46,11 @@ const Header = () => {
                         Contact
                     </NavLink>
                     <NavLink
-                        to="/client"
+                        to="/teachers"
                         activeStyle={navButtonStyle}
                         className="nav-button"
                     >
-                        Clients
+                        Teachers
                     </NavLink>
                 </Nav>
             </div>

@@ -1,82 +1,60 @@
 [
     {
         id: "1",
-        serviceName: "Regular Bicycle Rididing training",
-        duration: "10 Days",
-        price: 5000,
-        teacher: "Mr Mahbub",
-        type: "Regular",
-        img: "https://media.istockphoto.com/vectors/father-teaches-baby-to-ride-bicycle-silhouette-first-bike-ride-vector-vector-id1162498006?k=20&m=1162498006&s=612x612&w=0&h=4H7p2LfTNVh8apNC6VfyRKjTxo8jUpawl5ERA2Xf4U4=",
-        description: "In this course we will teach you from basic level to a stratigic level of bicycle riding"
+        name: "Mr Mahbub",
+        img: "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/07/08/img_2842_0.jpg?itok=styt4qgr",
+        teach: "Bicycle Riding",
+        age: "35"
     },
     {
         id: "2",
-        serviceName: "Regular Bike Riding Training",
-        duration: "10 Days",
-        price: 10000,
-        teacher: "Mr jahangir",
-        type: "Regular",
-        img: "https://www.bikebd.com/wp-content/uploads/2019/10/kid-bike-in-bd.jpg",
-        description: "In this course we will teach you from basic level to a stratigic level of bike riding"
+        name: "Mr Jahangir Hossain",
+        img: "https://tutorsheba.com/images/1582478943.jpg",
+        teach: "Bike Riding",
+        age: "25"
     },
     {
         id: "3",
-        serviceName: "Regular Car Driving Training",
-        duration: "10 - 15 Days",
-        price: 12000,
-        teacher: "Mr Alom",
-        type: "Regular",
-        img: "https://i.ytimg.com/vi/IT8iAA-a0BQ/maxresdefault.jpg",
-        description: "In this course we will teach you from basic level to a stratigic level of Car  riding"
+        name: "Mr Alom",
+        img: "https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1617284812_driverondemand.jpg",
+        teach: "car driving",
+        age: "32"
     },
     {
         id: "4",
-        serviceName: "Regular Truck Driving Training",
-        duration: "20 - 25 Days",
-        price: 20000,
-        teacher: "Mr Kuddus",
-        type: "Regular",
-        img: "https://www.lc.edu/uploadedImages/Content/Major/Truck_Driver_Training/truck_001-th.jpg",
-        description: "In this course we will teach you from basic level to a professional  level of Truck  riding"
+        name: "Mr Kuddus Mia",
+        img: "https://s18391.pcdn.co/wp-content/uploads/2020/06/Truck-Driver-1400.jpg",
+        teach: "truck Driving",
+        age: "55"
     },
     {
         id: "5",
-        serviceName: "Advanced Cycle Stunt",
-        duration: "20 - 25 Days",
-        price: 12000,
-        teacher: "Abdur Rahman Kabila",
-        type: "Advanced",
-        img: "https://thumbs.dreamstime.com/b/mtb-biker-boy-mtb-bike-black-white-vector-illustration-175565681.jpg",
-        description: "We will taught you cycle stunt professionally in this advanced course"
+        name: "Abdur Rahman Kabila",
+        img: "https://tutorsheba.com/images/1596266752.jpg",
+        teach: "Cycle Stunt Riding",
+        age: "20"
     },
+
     {
         id: "6",
-        serviceName: "Advanced Bike Stunt",
-        duration: "25 - 30 Days",
-        price: 22000,
-        teacher: "Fahim CHowdhury",
-        type: "Advanced",
-        img: "https://wallpaperaccess.com/full/1627209.jpg",
-        description: "if You want to learn bike stunt from a zero level enroll this course"
+        name: "Fahim Chowdhury",
+        img: "https://i.scdn.co/image/ab6761610000e5eb6e2aa2c664bae5488eae9452",
+        teach: "Bike Stunt Riding",
+        age: "29"
     },
     {
         id: "7",
-        serviceName: "Advanced Car Drifting",
-        duration: "25 - 30 Days",
-        price: 25000,
-        teacher: "Hasib Durjoy",
-        type: "Advanced",
-        img: "https://static.wixstatic.com/media/c9d24b_4d8b0166ef9143b7ae9f5cfc91b5eed1.jpg/v1/fill/w_980,h_450,al_c,q_85/c9d24b_4d8b0166ef9143b7ae9f5cfc91b5eed1.webp",
-        description: "if You want to learn Car Driftting from a zero level enroll this course"
+        name: "Hasib Durjoy",
+        img: "https://tutorsheba.com/images/1599722706.jpg",
+        teach: "Car Drift Riding",
+        age: "35"
     },
     {
         id: "8",
-        serviceName: "professional Bus Driving",
-        duration: "40 - 50 Days",
-        price: 35000,
-        teacher: "Reja Ahmed",
-        type: "Advanced",
-        img: "https://static01.nyt.com/images/2007/06/24/business/600-home.jpg",
-        description: "if You want to learn Bus driving professionally from a zero level enroll this course"
+        name: "Reja Ahmed",
+        img: "https://businessnews-bd.net/wp-content/uploads/2015/04/India-woman-driver-wb.jpg.jpg",
+        teach: "Bus Driving",
+        age: "45"
     }
+
 ]

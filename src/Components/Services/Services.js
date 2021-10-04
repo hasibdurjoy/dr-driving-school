@@ -11,6 +11,7 @@ const Services = (props) => {
     }, []);
     return (
         <div>
+            <h2 className="text-center container mt-2 mb-2">Our All Services</h2>
             <Row xs={1} md={3} className="g-4 mx-5">
                 {
                     services.map(service => <Service key={service.id} service={service}></Service>)
