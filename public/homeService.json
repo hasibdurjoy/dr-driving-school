@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "serviceName": "Regular Bicycle Rididing",
+        "duration": "10 Days",
+        "price": 5000,
+        "teacher": "Mr Mahbub",
+        "type": "Regular",
+        "img": "https://media.istockphoto.com/vectors/father-teaches-baby-to-ride-bicycle-silhouette-first-bike-ride-vector-vector-id1162498006?k=20&m=1162498006&s=612x612&w=0&h=4H7p2LfTNVh8apNC6VfyRKjTxo8jUpawl5ERA2Xf4U4=",
+        "description": "In this course we will teach you from basic level to a stratigic level of bicycle riding"
+    },
+    {
+        "id": "2",
+        "serviceName": "Regular Car Driving",
+        "duration": "10 - 15 Days",
+        "price": 12000,
+        "teacher": "Mr Alom",
+        "type": "Regular",
+        "img": "https://i.ytimg.com/vi/IT8iAA-a0BQ/maxresdefault.jpg",
+        "description": "In this course we will teach you from basic level to a stratigic level of Car  riding"
+    },
+    {
+        "id": "3",
+        "serviceName": "Advanced Cycle Stunt",
+        "duration": "20 - 25 Days",
+        "price": 12000,
+        "teacher": "Abdur Rahman Kabila",
+        "type": "Advanced",
+        "img": "https://thumbs.dreamstime.com/b/mtb-biker-boy-mtb-bike-black-white-vector-illustration-175565681.jpg",
+        "description": "We will taught you cycle stunt professionally in this advanced course"
+    },
+    {
+        "id": "4",
+        "serviceName": "Advanced Car Drift",
+        "duration": "25 - 30 Days",
+        "price": 25000,
+        "teacher": "Hasib Durjoy",
+        "type": "Advanced",
+        "img": "https://static.wixstatic.com/media/c9d24b_4d8b0166ef9143b7ae9f5cfc91b5eed1.jpg/v1/fill/w_980,h_450,al_c,q_85/c9d24b_4d8b0166ef9143b7ae9f5cfc91b5eed1.webp",
+        "description": "if You want to learn Car Driftting from a zero level enroll this course"
+    }
+]

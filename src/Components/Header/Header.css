@@ -1,0 +1,18 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.815);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav-button{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+.logo-img{
+    height: 50px;
+    border-radius: 10px;
+}

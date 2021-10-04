@@ -1,0 +1,11 @@
+.carousel-container{
+    margin: 10px;
+}
+.carousel-image{
+    height: 400px;
+    opacity: 60%;
+}
+.carousel-text{
+    background-color: rgba(24, 26, 26, 0.603);
+    border-radius: 10px;
+}
