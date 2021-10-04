@@ -4,12 +4,15 @@ import { NavLink } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
 
 const Header = () => {
+    // style for selected nav 
     const navButtonStyle = {
         fontWeight: "bold",
         color: "cadetblue"
     }
     return (
+        // full header 
         <div className="header">
+            {/* navs with link  */}
             <div>
                 <NavLink to="/">
                     <img className="logo-img" src="logo.png" alt="" />
@@ -54,6 +57,7 @@ const Header = () => {
                     </NavLink>
                 </Nav>
             </div>
+            {/* navbar contact  */}
             <div>
                 <p style={{ margin: '0' }}><i className="fas fa-phone-alt"></i>   +0099876543210</p>
                 <p style={{ margin: '0' }}><i className="far fa-envelope"></i>  dr.driving@gmail.com</p>

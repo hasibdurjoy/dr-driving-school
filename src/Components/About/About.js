@@ -2,6 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
+        // about us section 
         <div className="container mt-5 d-flex">
             <div className="w-50 container">
                 <img src="./driving-logo.jpg" alt="" className="img-fluid w-75" />

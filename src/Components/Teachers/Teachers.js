@@ -5,6 +5,8 @@ import { Row } from 'react-bootstrap';
 import Teacher from '../Teacher/Teacher';
 
 const Teachers = () => {
+
+    // fetching data from teachers 
     const [teachers, setTeachers] = useState([]);
     useEffect(() => {
         fetch('./Teachers.json')
@@ -14,6 +16,7 @@ const Teachers = () => {
     return (
         <div>
             <h3 className="text-center m-3">Our Honourable Teachers</h3>
+            {/* loop to show teachers  */}
             <Row xs={1} md={3} className="g-4 mx-5">
                 {
                     teachers.map(teacher => <Teacher key={teacher.id} teacher={teacher}></Teacher>)

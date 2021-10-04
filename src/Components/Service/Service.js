@@ -3,8 +3,12 @@ import './Service.css';
 import { Button, Card, Col } from 'react-bootstrap';
 
 const Service = (props) => {
+    // destructuring from service 
     const { serviceName, duration, price, teacher, type, img, description } = props.service;
     return (
+
+        // seeting card of service element 
+
         <Col className="shadow rounded ">
             <Card className="card h-100 service-card">
                 <Card.Img variant="top" src={img} className="service-thumbnail p-3 bg-white" />

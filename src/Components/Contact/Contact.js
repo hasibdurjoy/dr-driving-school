@@ -3,6 +3,8 @@ import { Card, Col, Row } from 'react-bootstrap';
 
 const Contact = () => {
     return (
+        // contact section 
+        // head office contact 
         <div className="mt-5 container">
             <h3 className="text-center mb-4">Head Office</h3>
             <Row xs={1} md={3} className="g-4">
@@ -40,6 +42,8 @@ const Contact = () => {
                     </Card>
                 </Col>
             </Row>
+
+            {/* branch office contact  */}
             <h3 className="text-center mt-5 mb-3">Branch Office</h3>
             <Row xs={1} md={3} className="g-4">
                 <Col>

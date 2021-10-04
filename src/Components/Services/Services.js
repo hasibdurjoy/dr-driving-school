@@ -3,6 +3,8 @@ import { CardGroup, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = (props) => {
+
+    // fetching services data 
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('./Services.json')
@@ -12,6 +14,8 @@ const Services = (props) => {
     return (
         <div>
             <h2 className="text-center container mt-2 mb-2">Our All Services</h2>
+
+            {/* loop to show services  */}
             <Row xs={1} md={3} className="g-4 mx-5">
                 {
                     services.map(service => <Service key={service.id} service={service}></Service>)

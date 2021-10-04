@@ -12,6 +12,7 @@ import Teachers from './Components/Teachers/Teachers';
 function App() {
   return (
     <div>
+      {/* seeting all routes  */}
       <Router>
         <Header></Header>
         <Switch>
@@ -33,6 +34,7 @@ function App() {
           <Route path="/teachers">
             <Teachers></Teachers>
           </Route>
+          {/* route for error link  */}
           <Route path="*">
             <NotFound></NotFound>
           </Route>
