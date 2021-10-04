@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Row, Button, Carousel } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import About from '../About/About';
+import ItemCarousel from '../ItemCarousel/ItemCarousel';
 import Service from '../Service/Service';
 import Teacher from '../Teacher/Teacher';
 import './Home.css';
@@ -39,21 +40,11 @@ const Home = () => {
         <div>
             <div>
                 {/* carousel item to show on top  */}
+                {/* loop to show carousel  */}
                 <Carousel className="carousel-container">
                     {
                         services.map(service => <Carousel.Item>
-                            <img
-                                className="d-block w-100 mx-auto carousel-image"
-                                src={service.img}
-                                alt="First slide"
-                            />
-                            <Carousel.Caption className="carousel-text">
-                                <h3 className="text-white">{service.serviceName}</h3>
-                                <h4 className="text-white">{service.description}</h4>
-                                <h2 className="text-white">Offering At : {service.price} BDT</h2>
-                                <Button variant="success" onClick={seeAllService} className="mx-3">Enroll Now <i className="fas fa-arrow-right"></i></Button>
-                                <Button variant="light" onClick={seeAllService} className="mx-3">Learn More <i className="fas fa-arrow-right"></i></Button>
-                            </Carousel.Caption>
+                            <ItemCarousel service={service} seeAllService={seeAllService}></ItemCarousel>
                         </Carousel.Item>)
                     }
                 </Carousel>
