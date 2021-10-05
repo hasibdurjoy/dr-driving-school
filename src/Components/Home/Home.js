@@ -43,7 +43,7 @@ const Home = () => {
                 {/* loop to show carousel  */}
                 <Carousel className="carousel-container">
                     {
-                        services.map(service => <Carousel.Item>
+                        services.map(service => <Carousel.Item key={service.id}>
                             <ItemCarousel service={service} seeAllService={seeAllService}></ItemCarousel>
                         </Carousel.Item>)
                     }
